@@ -1,0 +1,45 @@
+body{
+    background: #FFFFFF;
+    color: #212121;    
+    font-family: 'Roboto',sans-serif;
+
+}
+:root {
+    --primary-color: #212121;
+    --accent-color: #2196F3;
+    --section-color: #F5F4FA;
+    --hero-background: #2F303A;
+
+}
+
+/* #2196F3 link */
+/* #2196F3; акцент */
+/* #757575  вторичный шрифт*/
+/* #F5F4FA вторичный фон */
+/* #2F303A фон герой */
+
+ul {
+        list-style: none;}
+
+a {text-decoration: none;}
+
+
+
+.logo-link {
+    color: #2196F3;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.logo-link span {
+    color: #212121;;
+
+}
+.menu-header a {
+    color: #212121;
+}
+
+.menu-header a:hover {
+    color: #2196F3;
+}
