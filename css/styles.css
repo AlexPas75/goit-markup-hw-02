@@ -1,12 +1,14 @@
 :root {
+  --main-white-color: #ffffff;
   --main-text-color: #757575;
   --second-text-color: #212121;
   --accent-text-color: #2196f3;
-  --hero-color: #fff;
+  --hero-color: #ffffff;
   --accent-color: #2196f3;
   --main-bgd-color: #f5f4fa;
   --second-bcg-color: #e5e5e5;
   --hero-bcg-color: #2f303a;
+  --hero-btn-hover-color: #188ce8;
 }
 * {
   margin: 0;
@@ -14,7 +16,7 @@
 }
 
 body {
-  background: #ffffff;
+  background: var(--main-white-color);
   color: var(--main-text-color);
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
@@ -101,14 +103,14 @@ body {
 /* Logo */
 
 .logo-link {
-  color: #2196f3;
+  color: var(--accent-text-color);
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
 }
 
 .logo-accent-header {
-  color: #212121;
+  color: var(--second-text-color);
 }
 
 /* основное меню */
@@ -163,7 +165,7 @@ body {
   margin: auto;
 }
 .hero-button {
-  color: #ffffff;
+  color: var(--hero-color);
   padding: 10px 32px;
   background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -178,7 +180,7 @@ body {
 }
 .hero-button:hover,
 .hero-button:focus {
-  background-color: #188ce8;
+  background-color: var(--hero-btn-hover-color);
 }
 
 /* Наши преимущества */
@@ -207,7 +209,6 @@ body {
 /*  секция чем мы занимаесмся */
 
 .we-doing {
-  background: var(--second-bcg-color);
   padding: 95px 0;
 }
 
